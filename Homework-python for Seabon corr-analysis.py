@@ -19,7 +19,7 @@ rjzpsr= [21966,23821,25974,28228,30733]
 # 利用pandas建立数据框
 # 'rjzpje':人均诈骗金额，'wmgm'：网民规模，'wlzfgm'：网络支付规模，'sjyhgm'：社交APP用户规模，
 # 'ydjjgm'：移动经济规模,'ydjjgm',人均可支配收入(元)'
-df=pd.DataFrame({'人均诈骗金额（元）':rj,'网民规模（万人）':wm,'网络支付规模(万)':wlzf,\
+df=pd.DataFrame({'人均诈骗金额（元）':rj,'网民规模（万人）':wm,'网络支付规模(万人)':wlzf,\
     '社交APP用户规模（万人）':sjgm,'移动经济规模（亿元）':ydjjgm,'人均可支配收入(元)':rjzpsr},index=[2015,2016,2017,2018,2019])
 df
 df=pd.DataFrame({'rjzpje':rj,'wmgm':wm,'wlzfgm':wlzf,\
