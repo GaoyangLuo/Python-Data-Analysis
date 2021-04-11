@@ -56,4 +56,3 @@ sns.boxplot(x = 'rjzpje', y= 'wlzfgm', data = df)
 sns.boxplot(x = 'rjzpje', y= 'sjyhgm', data = df)
 sns.boxplot(x = 'rjzpje', y= 'ydjjgm', data = df)
 sns.boxplot(x = 'rjzpje', y= 'rjzpsr', data = df)
-# distplot图
